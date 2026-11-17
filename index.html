@@ -4,11 +4,10 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>QwikTalent &mdash; Executive &amp; Tech Talent Intelligence</title>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
-body{font-family:"Bricolage Grotesque",sans-serif;background:#F7F8FC;color:#2D3448;-webkit-font-smoothing:antialiased;}
+body{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;background:#F7F8FC;color:#2D3448;-webkit-font-smoothing:antialiased;text-align:left;}
 a{text-decoration:none;color:inherit;}
 button{font-family:inherit;cursor:pointer;}
 
@@ -54,7 +53,7 @@ button{font-family:inherit;cursor:pointer;}
 }
 /* tagline */
 .nav-tagline{
-  font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.2em;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.2em;
   color:rgba(75,143,224,0.5);text-transform:uppercase;white-space:nowrap;
   position:relative;z-index:2;flex-shrink:0;
   display:flex;flex-direction:column;gap:4px;
@@ -63,7 +62,7 @@ button{font-family:inherit;cursor:pointer;}
 /* center links */
 .nav-links{display:flex;gap:28px;list-style:none;position:relative;z-index:2;}
 .nav-links a{
-  font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:11px;letter-spacing:.08em;
   color:rgba(255,255,255,0.4);transition:color .2s;text-transform:uppercase;
 }
 .nav-links a:hover{color:#5BA3F5;}
@@ -71,12 +70,12 @@ button{font-family:inherit;cursor:pointer;}
 .nav-right{display:flex;align-items:center;gap:14px;position:relative;z-index:2;flex-shrink:0;}
 .nav-status{
   display:flex;align-items:center;gap:6px;
-  font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.1em;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.1em;
   color:rgba(255,255,255,0.3);white-space:nowrap;
 }
 .nav-status-dot{width:6px;height:6px;border-radius:50%;background:#5BA3F5;animation:blink 2s infinite;flex-shrink:0;}
 .nav-cta{
-  font-family:"DM Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.08em;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;
   background:#5BA3F5;color:#040B12;border:none;padding:10px 20px;border-radius:3px;
   transition:all .15s;white-space:nowrap;text-transform:uppercase;
 }
@@ -90,7 +89,7 @@ button{font-family:inherit;cursor:pointer;}
 }
 .mmenu.open{display:flex;}
 .mmenu a{
-  padding:14px 24px;font-family:"DM Mono",monospace;font-size:11px;
+  padding:14px 24px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:11px;
   letter-spacing:.08em;color:rgba(255,255,255,0.4);
   border-bottom:1px solid rgba(255,255,255,0.05);text-transform:uppercase;
 }
@@ -98,9 +97,9 @@ button{font-family:inherit;cursor:pointer;}
 
 /* HERO */
 .hero{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100vh - 70px);}
-.hero-l{padding:80px 48px;display:flex;flex-direction:column;justify-content:center;background:#fff;border-right:1px solid #E2E6F0;}
+.hero-l{padding:80px 48px;display:flex;flex-direction:column;justify-content:center;background:#fff;border-right:1px solid #E2E6F0;text-align:left;}
 .hero-r{background:#0A0E17;display:flex;flex-direction:column;justify-content:center;padding:48px;}
-.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(75,143,224,.1);border:1px solid rgba(75,143,224,.25);border-radius:4px;padding:5px 12px;font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.12em;color:#4B8FE0;text-transform:uppercase;margin-bottom:24px;width:fit-content;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(75,143,224,.1);border:1px solid rgba(75,143,224,.25);border-radius:4px;padding:5px 12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;letter-spacing:.12em;color:#4B8FE0;text-transform:uppercase;margin-bottom:24px;width:fit-content;}
 .badge-dot{width:6px;height:6px;border-radius:50%;background:#4B8FE0;animation:blink 2s infinite;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:.3;}}
 h1{font-size:52px;font-weight:800;line-height:1.04;letter-spacing:-1.5px;color:#0A0E17;margin-bottom:18px;}
@@ -117,12 +116,12 @@ h1 em{font-style:normal;color:#4B8FE0;}
 .hero-cards{display:flex;flex-direction:column;gap:12px;}
 .hcard{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:16px 20px;}
 .hcard-role{font-size:13px;font-weight:700;color:#fff;margin-bottom:3px;}
-.hcard-meta{font-family:"DM Mono",monospace;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.05em;margin-bottom:10px;}
+.hcard-meta{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.05em;margin-bottom:10px;}
 .hcard-row{display:flex;align-items:center;gap:10px;}
-.hcard-score{font-family:"DM Mono",monospace;font-size:10px;font-weight:700;color:#4B8FE0;white-space:nowrap;}
+.hcard-score{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;font-weight:700;color:#4B8FE0;white-space:nowrap;}
 .hcard-track{flex:1;height:3px;background:rgba(255,255,255,.1);border-radius:2px;}
 .hcard-fill{height:3px;background:#4B8FE0;border-radius:2px;}
-.hcard-status{font-family:"DM Mono",monospace;font-size:9px;color:rgba(75,143,224,.7);white-space:nowrap;}
+.hcard-status{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;color:rgba(75,143,224,.7);white-space:nowrap;}
 
 /* PROOF */
 .proof{display:grid;grid-template-columns:repeat(4,1fr);background:#0A0E17;}
@@ -130,12 +129,12 @@ h1 em{font-style:normal;color:#4B8FE0;}
 .pi:last-child{border-right:none;}
 .pi-n{font-size:34px;font-weight:800;color:#fff;letter-spacing:-1px;line-height:1;margin-bottom:5px;}
 .pi-n em{font-style:normal;color:#4B8FE0;}
-.pi-l{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.12em;color:rgba(255,255,255,.35);text-transform:uppercase;}
+.pi-l{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.12em;color:rgba(255,255,255,.35);text-transform:uppercase;}
 
 /* SECTIONS */
 .sec{padding:88px 48px;}
 .sec.wh{background:#fff;}
-.stag{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.18em;color:#4B8FE0;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
+.stag{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;letter-spacing:.18em;color:#4B8FE0;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:10px;}
 .stag::before{content:"";width:20px;height:1.5px;background:#4B8FE0;display:block;flex-shrink:0;}
 .sh{font-size:42px;font-weight:800;color:#0A0E17;letter-spacing:-1.2px;line-height:1.05;margin-bottom:14px;}
 .sh em{font-style:normal;color:#4B8FE0;}
@@ -149,15 +148,32 @@ h1 em{font-style:normal;color:#4B8FE0;}
 .sc-icon{font-size:26px;margin-bottom:14px;}
 .sc-title{font-size:18px;font-weight:700;color:#0A0E17;margin-bottom:8px;}
 .sc-desc{font-size:14px;line-height:1.7;color:#6B7592;font-weight:300;margin-bottom:14px;}
+/* ── SERVICENOW-STYLE SERVE SECTION ── */
+.sn-serve{background:#04080F;padding:88px 48px;}
+.sn-serve-inner{max-width:1200px;margin:0 auto;}
+.sn-serve-header{max-width:800px;margin-bottom:64px;}
+.sn-serve-h{font-size:40px;font-weight:800;color:#fff;line-height:1.15;margin:16px 0 20px;}
+.sn-serve-h em{color:#4B8FE0;font-style:normal;}
+.sn-serve-sub{font-size:16px;color:#8B9BB4;line-height:1.7;max-width:680px;}
+.sn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 40px;}
+.sn-card{padding:0;}
+.sn-card-icon{width:48px;height:48px;color:#4B8FE0;margin-bottom:20px;}
+.sn-card-icon svg{width:100%;height:100%;}
+.sn-card-title{font-size:18px;font-weight:700;color:#fff;margin-bottom:12px;line-height:1.3;}
+.sn-card-desc{font-size:14px;color:#8B9BB4;line-height:1.75;}
+@media(max-width:900px){.sn-grid{grid-template-columns:repeat(2,1fr);gap:40px 32px;}}
+@media(max-width:600px){.sn-grid{grid-template-columns:1fr;gap:36px;}.sn-serve{padding:60px 24px;}.sn-serve-h{font-size:28px;}}
+
 .sc-tags{display:flex;flex-wrap:wrap;gap:5px;}
-.sc-tag{font-family:"DM Mono",monospace;font-size:10px;background:#EEF0F7;border:1px solid #E2E6F0;border-radius:3px;padding:3px 8px;color:#6B7592;}
+.sc-tag{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;background:#EEF0F7;border:1px solid #E2E6F0;border-radius:3px;padding:3px 8px;color:#6B7592;}
 
 /* PROCESS */
 .proc-sec{background:#0A0E17;padding:88px 48px;}
+.proc-sec > *{max-width:1200px;margin-left:auto;margin-right:auto;}
 .pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.06);border-radius:8px;overflow:hidden;margin-top:48px;}
-.pstep{background:#0A0E17;padding:28px;transition:background .2s;}
+.pstep{background:#0A0E17;padding:28px;transition:background .2s;text-align:left;}
 .pstep:hover{background:#0D1628;}
-.pn{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.16em;color:#4B8FE0;margin-bottom:16px;}
+.pn{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.16em;color:#4B8FE0;margin-bottom:16px;}
 .pt{font-size:15px;font-weight:700;color:#fff;margin-bottom:7px;line-height:1.3;}
 .pd{font-size:13px;line-height:1.65;color:rgba(255,255,255,.4);font-weight:300;}
 
@@ -193,7 +209,7 @@ h1 em{font-style:normal;color:#4B8FE0;}
   padding:20px 22px;transition:border-color .2s;
 }
 .mi-stat:hover{border-color:#4B8FE0;}
-.mi-stat-label{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.12em;color:#9BA3BC;text-transform:uppercase;margin-bottom:8px;}
+.mi-stat-label{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.12em;color:#9BA3BC;text-transform:uppercase;margin-bottom:8px;}
 .mi-stat-num{font-size:28px;font-weight:800;color:#0A0E17;letter-spacing:-1px;line-height:1;margin-bottom:4px;}
 .mi-stat-num em{font-style:normal;color:#4B8FE0;}
 .mi-stat-sub{font-size:12px;color:#6B7592;}
@@ -208,19 +224,19 @@ h1 em{font-style:normal;color:#4B8FE0;}
 .mi-row-label{font-size:13px;color:#2D3448;font-weight:500;flex:1;}
 .mi-row-bar-wrap{flex:2;height:6px;background:#EEF0F7;border-radius:3px;}
 .mi-row-bar{height:6px;border-radius:3px;}
-.mi-row-val{font-family:"DM Mono",monospace;font-size:11px;font-weight:700;color:#0A0E17;white-space:nowrap;min-width:48px;text-align:right;}
+.mi-row-val{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:11px;font-weight:700;color:#0A0E17;white-space:nowrap;min-width:48px;text-align:right;}
 /* salary table */
 .mi-salary-card{background:#fff;border:1.5px solid #E2E6F0;border-radius:10px;padding:24px;}
 .mi-salary-title{font-size:15px;font-weight:700;color:#0A0E17;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between;}
-.mi-salary-source{font-family:"DM Mono",monospace;font-size:9px;color:#9BA3BC;letter-spacing:.06em;}
+.mi-salary-source{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;color:#9BA3BC;letter-spacing:.06em;}
 .mi-table{width:100%;border-collapse:collapse;}
-.mi-table th{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.1em;color:#9BA3BC;text-transform:uppercase;text-align:left;padding:8px 12px;border-bottom:1px solid #E2E6F0;}
+.mi-table th{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.1em;color:#9BA3BC;text-transform:uppercase;text-align:left;padding:8px 12px;border-bottom:1px solid #E2E6F0;}
 .mi-table td{font-size:13px;color:#2D3448;padding:10px 12px;border-bottom:1px solid #F3F4F8;vertical-align:middle;}
 .mi-table tr:last-child td{border-bottom:none;}
 .mi-table tr:hover td{background:#F7F8FC;}
 .mi-salary-badge{
   display:inline-flex;align-items:center;gap:4px;
-  font-family:"DM Mono",monospace;font-size:10px;font-weight:700;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;font-weight:700;
   padding:3px 8px;border-radius:3px;
 }
 .mi-badge-high{background:rgba(75,143,224,.08);color:#3578CC;border:1px solid rgba(75,143,224,.2);}
@@ -229,39 +245,41 @@ h1 em{font-style:normal;color:#4B8FE0;}
 /* insights strip */
 .mi-insights{background:#0A0E17;border-radius:10px;padding:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background-image:linear-gradient(#0A0E17,#0A0E17),repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0px,rgba(255,255,255,.06) 1px,transparent 1px,transparent 100%);}
 .mi-insight{padding:16px 20px;}
-.mi-insight-label{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.12em;color:rgba(75,143,224,.5);text-transform:uppercase;margin-bottom:6px;}
+.mi-insight-label{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.12em;color:rgba(75,143,224,.5);text-transform:uppercase;margin-bottom:6px;}
 .mi-insight-text{font-size:13px;color:rgba(255,255,255,.75);line-height:1.55;font-weight:300;}
 /* loading/empty states */
 .mi-loading{text-align:center;padding:48px;color:#9BA3BC;}
 .mi-spinner{width:28px;height:28px;border:2.5px solid #E2E6F0;border-top-color:#4B8FE0;border-radius:50%;margin:0 auto 14px;animation:spin .7s linear infinite;}
-.mi-hint{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;color:#9BA3BC;text-align:center;padding:32px;border:1.5px dashed #E2E6F0;border-radius:10px;}
-.mi-source-note{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.06em;color:#9BA3BC;text-align:center;margin-top:12px;line-height:1.6;}
+.mi-hint{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:10px;letter-spacing:.08em;color:#9BA3BC;text-align:center;padding:32px;border:1.5px dashed #E2E6F0;border-radius:10px;}
+.mi-source-note{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.06em;color:#9BA3BC;text-align:center;margin-top:12px;line-height:1.6;}
 @media(max-width:900px){.mi-stats-row{grid-template-columns:repeat(2,1fr);}.mi-grid{grid-template-columns:1fr;}.mi-insights{grid-template-columns:1fr;}}
 @media(max-width:640px){.mi-sec{padding-left:20px;padding-right:20px;}.mi-search-row{flex-direction:column;}.mi-btn{width:100%;}}
 
 /* REVIEWS */
 .rev-sec{background:#0A0E17;padding:88px 48px;}
+.rev-sec > *{max-width:1200px;margin-left:auto;margin-right:auto;}
 .rgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:48px;}
 .rc{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:28px;transition:border-color .2s;}
 .rc:hover{border-color:rgba(255,255,255,.16);}
 .rc-stars{color:#FFCA28;font-size:12px;letter-spacing:2px;margin-bottom:14px;}
 .rc-quote{font-size:14px;line-height:1.7;color:rgba(255,255,255,.65);font-style:italic;margin-bottom:20px;padding-left:14px;border-left:2px solid rgba(75,143,224,.3);}
 .rc-who{display:flex;align-items:center;gap:10px;}
-.rc-av{width:34px;height:34px;min-width:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:"DM Mono",monospace;font-size:11px;font-weight:700;}
+.rc-av{width:34px;height:34px;min-width:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:11px;font-weight:700;}
 .rc-name{font-size:13px;font-weight:700;color:#fff;}
 .rc-role{font-size:11px;color:rgba(255,255,255,.4);margin-top:1px;}
 
 /* CTA */
-.cta{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;padding:88px 48px;background:#F7F8FC;border-top:1px solid #E2E6F0;}
+.cta{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;padding:88px 48px;background:#F7F8FC;border-top:1px solid #E2E6F0;max-width:100%;}
+.cta > *{max-width:none;}
 .cta h2{font-size:38px;font-weight:800;color:#0A0E17;letter-spacing:-1px;line-height:1.1;margin-bottom:10px;}
 .cta h2 span{color:#4B8FE0;}
 .cta p{font-size:15px;color:#6B7592;font-weight:300;}
-.cta-note{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.1em;color:#9BA3BC;margin-top:10px;}
+.cta-note{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.1em;color:#9BA3BC;margin-top:10px;}
 
 /* FOOTER */
 .footer{background:#0A0E17;padding:36px 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;}
 .footer-logo{height:30px;width:auto;filter:invert(1);opacity:.5;}
-.footer-copy{font-family:"DM Mono",monospace;font-size:9px;color:rgba(255,255,255,.3);line-height:1.8;margin-top:6px;}
+.footer-copy{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;color:rgba(255,255,255,.3);line-height:1.8;margin-top:6px;}
 .footer-links{display:flex;gap:24px;}
 .footer-links a{font-size:13px;font-weight:500;color:rgba(255,255,255,.4);transition:color .15s;}
 .footer-links a:hover{color:#fff;}
@@ -338,7 +356,7 @@ h1 em{font-style:normal;color:#4B8FE0;}
 }
 .chat-head-info{flex:1;}
 .chat-head-name{font-size:14px;font-weight:700;color:#fff;margin-bottom:1px;}
-.chat-head-status{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;color:rgba(75,143,224,0.7);}
+.chat-head-status{font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.08em;color:rgba(75,143,224,0.7);}
 .chat-head-close{background:none;border:none;color:rgba(255,255,255,0.4);cursor:pointer;padding:4px;font-size:18px;line-height:1;transition:color .2s;}
 .chat-head-close:hover{color:#fff;}
 .chat-msgs{
@@ -458,7 +476,7 @@ h1 em{font-style:normal;color:#4B8FE0;}
     </div>
   </div>
   <div class="hero-r">
-    <div style="font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.35);text-transform:uppercase;margin-bottom:16px;">Live Candidate Pipeline</div>
+    <div style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:9px;letter-spacing:.16em;color:rgba(255,255,255,.35);text-transform:uppercase;margin-bottom:16px;">Live Candidate Pipeline</div>
     <div class="hero-cards">
       <div class="hcard"><div class="hcard-role">Chief Technology Officer</div><div class="hcard-meta">15 YRS EXP &nbsp;&middot;&nbsp; SERIES B&ndash;D &nbsp;&middot;&nbsp; SF / REMOTE</div><div class="hcard-row"><span class="hcard-score">97% MATCH</span><div class="hcard-track"><div class="hcard-fill" style="width:97%"></div></div><span class="hcard-status">&#9679; PASSIVE</span></div></div>
       <div class="hcard"><div class="hcard-role">VP of Engineering</div><div class="hcard-meta">11 YRS EXP &nbsp;&middot;&nbsp; PLATFORM / INFRA &nbsp;&middot;&nbsp; NEW YORK</div><div class="hcard-row"><span class="hcard-score">94% MATCH</span><div class="hcard-track"><div class="hcard-fill" style="width:94%"></div></div><span class="hcard-status">&#9679; PASSIVE</span></div></div>
@@ -475,40 +493,92 @@ h1 em{font-style:normal;color:#4B8FE0;}
   <div class="pi"><div class="pi-n">100<em>%</em></div><div class="pi-l">Confidential</div></div>
 </div>
 
-<section class="sec wh" id="serve">
-  <div class="stag">Markets We Serve</div>
-  <h2 class="sh">Precision search for the<br/>industries <em>that define tomorrow.</em></h2>
-  <p class="ssub">QwikTalent places exceptional executives and technologists in the most specialized and competitive sectors. Where talent is rare, our network runs deep.</p>
-  <div class="sgrid sgrid-6">
-    <div class="sc">
-      <div class="sc-icon">&#128752;</div>
-      <div class="sc-title">Semiconductor &amp; Hardware</div>
-      <div class="sc-desc">ASIC design, firmware, chip architecture, PCB and thermal engineering. CTOs, VPs of Engineering, and design directors for fabless and integrated device manufacturers.</div>
+<section class="sn-serve" id="serve">
+  <div class="sn-serve-inner">
+    <div class="sn-serve-header">
+      <div class="stag">Markets We Serve</div>
+      <h2 class="sn-serve-h">Precision search for the industries<br/><em>that define tomorrow.</em></h2>
+      <p class="sn-serve-sub">QwikTalent places exceptional executives and technologists in the most specialized and competitive sectors. Where talent is rare, our network runs deep.</p>
     </div>
-    <div class="sc">
-      <div class="sc-icon">&#128640;</div>
-      <div class="sc-title">Space &amp; Aviation</div>
-      <div class="sc-desc">Propulsion, avionics, satellite systems, and aerospace operations. Executive and senior technical leaders for commercial space companies, defense primes, and launch providers.</div>
-    </div>
-    <div class="sc">
-      <div class="sc-icon">&#9889;</div>
-      <div class="sc-title">Nuclear &amp; Fusion Energy</div>
-      <div class="sc-desc">Reactor engineering, plasma physics, power systems, and regulatory leadership. We place mission-critical executives driving the next generation of clean energy.</div>
-    </div>
-    <div class="sc">
-      <div class="sc-icon">&#129504;</div>
-      <div class="sc-title">Enterprise AI &amp; Software</div>
-      <div class="sc-desc">AI/ML engineering, platform architecture, enterprise software leadership. CTOs, Chief AI Officers, VPs of Product, and engineering directors scaling intelligent systems.</div>
-    </div>
-    <div class="sc">
-      <div class="sc-icon">&#128737;</div>
-      <div class="sc-title">Cybersecurity</div>
-      <div class="sc-desc">CISOs, security architects, threat intelligence leads, and GRC executives. We place security leaders who protect critical infrastructure, enterprise systems, and classified environments.</div>
-    </div>
-    <div class="sc">
-      <div class="sc-icon">&#128187;</div>
-      <div class="sc-title">Technology &amp; IT Leadership</div>
-      <div class="sc-desc">CIOs, CTOs, VPs of Engineering, and IT Directors across enterprise, cloud, and infrastructure. Cross-industry technology executives for companies at every stage of digital transformation.</div>
+    <div class="sn-grid">
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="18" width="36" height="24" rx="2"/>
+            <path d="M16 18v-4a8 8 0 0 1 16 0v4"/>
+            <circle cx="24" cy="30" r="3"/>
+            <line x1="24" y1="33" x2="24" y2="37"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Semiconductor &amp; Hardware</div>
+        <div class="sn-card-desc">ASIC design, firmware, chip architecture, PCB and thermal engineering. CTOs, VPs of Engineering, and design directors for fabless and integrated device manufacturers.</div>
+      </div>
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 6 L28 20 L42 20 L31 29 L35 43 L24 34 L13 43 L17 29 L6 20 L20 20 Z" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="4" fill="currentColor" stroke="none" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Space &amp; Aviation</div>
+        <div class="sn-card-desc">Propulsion, avionics, satellite systems, and aerospace operations. Executive and senior technical leaders for commercial space, defense primes, and launch providers.</div>
+      </div>
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="24" cy="24" r="8"/>
+            <path d="M24 6v4M24 38v4M6 24h4M38 24h4"/>
+            <path d="M11.5 11.5l3 3M33.5 33.5l3 3M11.5 36.5l3-3M33.5 14.5l3-3"/>
+            <circle cx="24" cy="24" r="3" fill="currentColor" stroke="none" opacity="0.4"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Nuclear &amp; Fusion Energy</div>
+        <div class="sn-card-desc">Reactor engineering, plasma physics, power systems, and regulatory leadership. Mission-critical executives driving the next generation of clean energy.</div>
+      </div>
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 36 C12 28 18 22 24 16 C30 22 36 28 36 36"/>
+            <path d="M18 36 C18 30 21 26 24 22 C27 26 30 30 30 36"/>
+            <line x1="8" y1="36" x2="40" y2="36"/>
+            <path d="M24 16 L24 10 M20 12 L28 12"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Enterprise AI &amp; Software</div>
+        <div class="sn-card-desc">AI/ML engineering, platform architecture, enterprise software leadership. CTOs, Chief AI Officers, VPs of Product scaling intelligent systems at global scale.</div>
+      </div>
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 8 L38 14 L38 26 C38 34 32 40 24 43 C16 40 10 34 10 26 L10 14 Z"/>
+            <polyline points="17,24 22,29 31,19"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Cybersecurity</div>
+        <div class="sn-card-desc">CISOs, security architects, threat intelligence leads, and GRC executives. Leaders who protect critical infrastructure, enterprise systems, and classified environments.</div>
+      </div>
+
+      <div class="sn-card">
+        <div class="sn-card-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="8" width="36" height="26" rx="2"/>
+            <line x1="14" y1="38" x2="34" y2="38"/>
+            <line x1="20" y1="34" x2="20" y2="38"/>
+            <line x1="28" y1="34" x2="28" y2="38"/>
+            <line x1="14" y1="17" x2="34" y2="17"/>
+            <line x1="14" y1="22" x2="26" y2="22"/>
+            <line x1="14" y1="27" x2="22" y2="27"/>
+          </svg>
+        </div>
+        <div class="sn-card-title">Technology &amp; IT Leadership</div>
+        <div class="sn-card-desc">CIOs, CTOs, VPs of Engineering, and IT Directors across enterprise, cloud, and infrastructure. Technology executives for companies at every stage of transformation.</div>
+      </div>
+
     </div>
   </div>
 </section>
