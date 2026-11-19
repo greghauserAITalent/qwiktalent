@@ -320,13 +320,48 @@ h1 em{font-style:normal;color:#4B8FE0;}
   .sgrid,.sgrid-6,.rgrid{grid-template-columns:1fr 1fr;}
   .sgrid{grid-template-columns:1fr;}.pgrid{grid-template-columns:repeat(2,1fr);}
   .proof{grid-template-columns:repeat(2,1fr);}.cta{grid-template-columns:1fr;}
+  .sn-grid{grid-template-columns:repeat(2,1fr);}
+  .contact-inner{grid-template-columns:1fr;gap:48px;}
+}
+@media(max-width:768px){
+  .nav-logo{height:72px;}
+  .nav-divider{display:none;}
+  .nav-tagline{display:none;}
+  .sn-serve{padding:60px 24px;}
+  .sn-serve-h{font-size:36px;}
+  .svc-sec{padding:60px 24px;}
+  .svc-h{font-size:36px;}
+  .contact-sec{padding:60px 24px;}
+  .contact-h{font-size:36px;}
+  .cta{padding:48px 24px;}
+  .rev-sec{padding:60px 24px;}
+  .proc-sec{padding:60px 24px;}
+  .footer{padding:28px 24px;flex-direction:column;align-items:flex-start;gap:16px;}
+  .rgrid{grid-template-columns:1fr;}
 }
 @media(max-width:640px){
   .sgrid-6{grid-template-columns:1fr;}
-  .nav{padding:0 20px;}.nav-links,.nav-cta{display:none;}.ham{display:flex;}
-  .hero-l,.sec,.sec.wh,.proc-sec,.rev-sec,.cta,.footer{padding-left:20px;padding-right:20px;}
-  h1{font-size:44px;}.sh{font-size:36px;}.sbar{flex-direction:column;}
-  .pgrid{grid-template-columns:1fr;}.proof{grid-template-columns:1fr 1fr;}
+  .nav{padding:0 16px;height:72px;}.nav-links,.nav-cta{display:none;}.ham{display:flex;}
+  .nav-logo{height:56px;}
+  .hero-l,.sec,.sec.wh,.proc-sec,.rev-sec,.cta,.footer{padding-left:16px;padding-right:16px;}
+  .hero-l{padding-top:40px;padding-bottom:40px;}
+  h1{font-size:36px;letter-spacing:-1px;}.sh{font-size:30px;}.sbar{flex-direction:column;}
+  .pgrid{grid-template-columns:1fr;}.proof{grid-template-columns:1fr;}
+  .sn-grid{grid-template-columns:1fr;}
+  .svc-grid{grid-template-columns:1fr;}
+  .sn-serve{padding:48px 16px;}.svc-sec{padding:48px 16px;}
+  .sn-serve-h{font-size:30px;}.svc-h{font-size:30px;}.contact-h{font-size:30px;}
+  .contact-sec{padding:48px 16px;}
+  .contact-inner{grid-template-columns:1fr;gap:36px;}
+  .form-row{grid-template-columns:1fr;}
+  .hero-cta-row{flex-direction:column;gap:12px;}
+  .hero-cta-row a,.hero-cta-row button{width:100%;text-align:center;justify-content:center;}
+  .cta{text-align:left;}
+  .cta>div:last-child{align-items:flex-start;}
+  .stag{font-size:10px;}
+  .svc-sub-label{font-size:10px;}
+  .sn-card-desc{font-size:13px;}
+  .hero-sub{font-size:15px;}
 }
 
 /* ── CHATBOT ── */
@@ -485,12 +520,12 @@ h1 em{font-style:normal;color:#4B8FE0;}
   </div>
 </nav>
 <div class="mmenu" id="mm">
-  <a href="#serve"     onclick="this.closest('#mm').classList.remove('open')">Who We Serve</a>
-  <a href="#services"  onclick="this.closest('#mm').classList.remove('open')">Services</a>
-  <a href="#process"   onclick="this.closest('#mm').classList.remove('open')">Process</a>
-  <a href="#market"  onclick="this.closest('#mm').classList.remove('open')">Market Data</a>
-  <a href="#clients" onclick="this.closest('#mm').classList.remove('open')">Clients</a>
-  <a href="mailto:info@qwiktalent.com">Contact</a>
+  <a href="#serve"     onclick="document.getElementById('mm').classList.remove('open')">Who We Serve</a>
+  <a href="#services"  onclick="document.getElementById('mm').classList.remove('open')">Services</a>
+  <a href="#process"   onclick="document.getElementById('mm').classList.remove('open')">Process</a>
+  <a href="#market"    onclick="document.getElementById('mm').classList.remove('open')">Market Data</a>
+  <a href="#clients"   onclick="document.getElementById('mm').classList.remove('open')">Clients</a>
+  <a href="#contact"   onclick="document.getElementById('mm').classList.remove('open')">Contact</a>
 </div>
 
 <section class="hero">
